@@ -5,7 +5,9 @@ This is a Rabbit MQ docker image that has 0 security features (for easier softwa
 # Build
 
 ```
-sudo docker build .
+
+sudo docker build . --tag=stub_mq
+
 ```
 
 # Run
@@ -19,3 +21,7 @@ sudo docker run -p 15672:15672 -p 5672:5672 -p 3002:15675 -p 8883:8883 -p 1883:1
 # Login
 
 Use it like any other MQTT broker, but without a username / password.
+
+# Debug
+
+Visit [http://localhost:15672](http://localhost:15672) as `guest:guest`.

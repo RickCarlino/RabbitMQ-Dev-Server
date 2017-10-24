@@ -1,4 +1,5 @@
 [
   rabbitmq_mqtt,
-  rabbitmq_web_mqtt
+  rabbitmq_web_mqtt,
+  rabbitmq_management
 ].
