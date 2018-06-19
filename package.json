@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.110",
+    "lodash": "^4.17.10",
+    "mqtt": "2.18.1"
+  }
+}

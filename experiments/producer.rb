@@ -10,7 +10,7 @@ conn.start
 ch = conn.create_channel
 
 # declare a queue
-
+binding.pry
 10.times do
   q  = ch.queue("test1-#{SecureRandom.uuid[0..7]}")
   5.times do
